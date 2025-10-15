@@ -5,10 +5,10 @@
 # ResetEase
 
 ![GitHub](https://img.shields.io/github/license/Ajatt-Tools/ResetEase)
-![Lines of code](https://img.shields.io/tokei/lines/github/Ajatt-Tools/ResetEase)
-[![Matrix](https://img.shields.io/badge/chat-join-green.svg)](https://tatsumoto-ren.github.io/blog/join-our-community.html)
+[![Rate on AnkiWeb](https://glutanimate.com/logos/ankiweb-rate.svg)](https://ankiweb.net/shared/info/819023663)
+[![Patreon](https://img.shields.io/badge/donate-black?logo=monero)](https://tatsumoto.neocities.org/blog/donating-to-tatsumoto.html)
+[![Chat](https://img.shields.io/badge/chat-join-0dbd8b?logo=element)](https://tatsumoto.neocities.org/blog/join-our-community.html)
 [![Channel](https://shields.io/badge/channel-subscribe-blue?logo=telegram&color=3faee8)](https://t.me/ajatt_tools)
-[![Patreon](https://img.shields.io/badge/patreon-support-orange)](https://www.patreon.com/bePatron?u=43555128)
 
 ResetEase sets the `Ease factor` of all the cards in your collection to the value you choose,
 and updates `Interval Modifier` and `Starting Ease` in every option group.

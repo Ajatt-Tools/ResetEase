@@ -11,7 +11,7 @@ from aqt.utils import openLink, restoreGeom, saveGeom
 from .ajt_common.addon_config import AddonConfigManager
 from .config import config
 from .consts import *
-from .refoldease import RefoldEase, get_decks_info, adjust_im
+from .resetease import ResetEase, get_decks_info, adjust_im
 
 
 ######################################################################
@@ -152,7 +152,7 @@ class DialogUI(QDialog):
 ######################################################################
 
 
-class RefoldEaseDialog(DialogUI):
+class ResetEaseDialog(DialogUI):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.set_minimums()
@@ -160,7 +160,7 @@ class RefoldEaseDialog(DialogUI):
         self.set_default_values(config)
         self.connect_ui_elements()
         self.thread: Optional[QThread] = None
-        self.worker: Optional[RefoldEase] = None
+        self.worker: Optional[ResetEase] = None
 
     def show(self) -> None:
         super().show()
@@ -257,7 +257,7 @@ class RefoldEaseDialog(DialogUI):
         if self._run_button.isEnabled():
             self.update_global_config()
             self.thread = QThread()
-            self.worker = RefoldEase(
+            self.worker = ResetEase(
                 decks=self.collect_selected_decks(),
                 factor_human=self._desired_new_ease_spinbox.value(),
                 im_human=self._recommended_new_im_spinbox.value(),
@@ -275,7 +275,7 @@ class RefoldEaseDialog(DialogUI):
 
 
 def init():
-    mw.ajt__refold_ease_dialog = dialog = RefoldEaseDialog(parent=mw)
+    mw.ajt__reset_ease_dialog = dialog = ResetEaseDialog(parent=mw)
 
     from .ajt_common.about_menu import menu_root_entry
 

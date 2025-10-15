@@ -143,9 +143,9 @@ def get_decks_info() -> list[DeckNameId]:
     ]
 
 
-def emit_running(func: Callable[["RefoldEase", ...], Any]):
+def emit_running(func: Callable[["ResetEase", ...], Any]):
     @functools.wraps(func)
-    def wrapper(self: "RefoldEase", *args, **kwargs):
+    def wrapper(self: "ResetEase", *args, **kwargs):
         self.running.emit(True)  # type: ignore
         ret = func(self, *args, **kwargs)
         self.running.emit(False)  # type: ignore
@@ -154,7 +154,7 @@ def emit_running(func: Callable[["RefoldEase", ...], Any]):
     return wrapper
 
 
-class RefoldEase(QObject):
+class ResetEase(QObject):
     running = pyqtSignal(bool)
 
     def __init__(self, decks: list[DeckNameId], factor_human: int, im_human: int):

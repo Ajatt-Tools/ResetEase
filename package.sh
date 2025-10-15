@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-readonly addon_name=RefoldEase
+readonly addon_name=ResetEase
 readonly root_dir=$(git rev-parse --show-toplevel)
 readonly zip_name="${addon_name}_$(git branch --show-current).ankiaddon"
 

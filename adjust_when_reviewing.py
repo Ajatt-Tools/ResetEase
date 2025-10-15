@@ -6,7 +6,7 @@ from aqt import gui_hooks
 from aqt.reviewer import Reviewer
 
 from .config import config
-from .refoldease import ez_factor_anki
+from .resetease import ez_factor_anki
 
 
 def is_review(card: Card) -> bool:
@@ -30,7 +30,7 @@ def adjust_ease(card: Card) -> None:
 
     if card.factor != required_factor_anki:
         card.factor = required_factor_anki
-        print(f"RefoldEase: Card #{card.id}'s Ease has been adjusted to {required_factor_human}%.")
+        print(f"ResetEase: Card #{card.id}'s Ease has been adjusted to {required_factor_human}%.")
 
 
 def on_reviewer_will_answer_card(ease_tuple: tuple, _reviewer: Reviewer, card: Card) -> tuple:

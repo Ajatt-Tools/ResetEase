@@ -1,4 +1,4 @@
-## Refold Ease configuration
+## Reset Ease configuration
 
 *Anki needs to be restarted after changing the config.*
 

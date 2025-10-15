@@ -7,7 +7,7 @@ from anki.decks import DeckNameId
 
 EasePercent = NewType("EasePercent", int)
 
-ADDON_NAME = "Refold Ease"
+ADDON_NAME = "Reset Ease"
 RUN_BUTTON_TEXT = "Run"
 MIN_EASE = EasePercent(131)
 MAX_EASE = EasePercent(1000)

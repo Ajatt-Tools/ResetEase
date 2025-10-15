@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/69171671/101586172-3e3fff00-39d9-11eb-9778-cd20e12b7827.png">
+<img width="414" height="390" alt="reset-ease" src="https://github.com/user-attachments/assets/36de376c-c650-46c0-9e9d-9348654275b1" />
 </p>
 
 # ResetEase

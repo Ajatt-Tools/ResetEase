@@ -26,10 +26,15 @@ You can run the add-on by going to `Tools > Reset Ease`.
 
 ## Installation
 
-Install from [AnkiWeb](https://ankiweb.net/shared/info/819023663), or manually with `git`:
+Install from [AnkiWeb](https://ankiweb.net/shared/info/819023663).
 
-```
-git clone 'https://github.com/Ajatt-Tools/ResetEase.git' ~/.local/share/Anki2/addons21/ResetEase
+## Contributing
+
+Install manually with `git`:
+
+```bash
+git clone 'https://github.com/Ajatt-Tools/ResetEase.git'
+ln -sr ResetEase/reset_ease ~/.local/share/Anki2/addons21/ResetEase
 ```
 
 ## Configuration

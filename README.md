@@ -6,7 +6,7 @@
 
 ![GitHub](https://img.shields.io/github/license/Ajatt-Tools/ResetEase)
 [![Rate on AnkiWeb](https://glutanimate.com/logos/ankiweb-rate.svg)](https://ankiweb.net/shared/info/819023663)
-[![Patreon](https://img.shields.io/badge/donate-black?logo=monero)](https://tatsumoto.neocities.org/blog/donating-to-tatsumoto.html)
+[![Patreon](https://img.shields.io/badge/donate-black?logo=monero)](https://ajatt.top/blog/donating-to-tatsumoto.html)
 [![Chat](https://img.shields.io/badge/chat-join-0dbd8b?logo=element)](https://tatsumoto.neocities.org/blog/join-our-community.html)
 [![Channel](https://shields.io/badge/channel-subscribe-blue?logo=telegram&color=3faee8)](https://t.me/ajatt_tools)
 
